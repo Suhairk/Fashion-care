@@ -1,0 +1,55 @@
+
+
+.form-container{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+Label{
+    color: rgb(32, 32, 31);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.password{
+    display: flex;
+    position: relative;
+}
+.eye-icon{
+    position: absolute;
+    right: 10px;
+    align-items: center;
+    top:8px;
+    color: rgb(14, 101, 201);
+}
+.email-icon{
+    position: absolute;
+    right: 10px;
+    align-items: center;
+    top:8px;
+    color: rgb(14, 101, 201);
+}
+input{
+    border: 3px solid #ced4da !important;
+    transition: .5s ease-in;
+}
+input:hover{
+    border: 3px solid #198754 !important;
+
+}
+.form-button{
+    width:200px !important;
+    background-color: #198754 !important;;
+}
+.form-footer{
+    display: flex;
+    justify-content:space-between
+
+}
+.form-footer a{
+    text-decoration: none;
+    font-size: 18px;
+
+}
